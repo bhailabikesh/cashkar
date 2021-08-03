@@ -78,10 +78,10 @@
                                     Sell 
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="/redesign-cashkar/sellmobile.php">Phone</a>
-                                    <a class="dropdown-item" href="/redesign-cashkar/selltablet.php">Ipad/Tablet</a>
-                                    <a class="dropdown-item" href="/redesign-cashkar/selllaptop.php">Laptop</a>
-                                    <a class="dropdown-item" href="/redesign-cashkar/selldesktop.php">Desktop</a>
+                                    <a class="dropdown-item" href="/sellmobile.php">Phone</a>
+                                    <a class="dropdown-item" href="/selltablet.php">Ipad/Tablet</a>
+                                    <a class="dropdown-item" href="/selllaptop.php">Laptop</a>
+                                    <a class="dropdown-item" href="/selldesktop.php">Desktop</a>
                                 </div>
                             </li>
                             <li class="nav-item">
