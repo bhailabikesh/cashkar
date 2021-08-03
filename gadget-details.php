@@ -38,7 +38,7 @@
                                 </li>
                             </ul>
 
-                            <a class="variant-btn btn" href="/redesign-cashkar/gadget-condition.php">Get Exact Value</a>
+                            <a class="variant-btn btn" href="/gadget-condition.php">Get Exact Value</a>
                         </div>
                      </div>
                  </div>
