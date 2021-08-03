@@ -1,0 +1,96 @@
+.gadget-detail {
+    background: #f5f2ee;
+    padding: 2rem 0;
+    
+
+    &__wrapper {
+        background: $color-white;
+        padding: 7rem 2rem;
+        border-radius: 20px;
+        -webkit-box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.16);
+        box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.16);
+
+        &--details {
+
+            & h6 {
+                font-size: 1.6rem;
+            }
+
+            & .device-name {
+                color: $color-secondary;
+                font-size: 3rem;
+                font-weight: 500;
+            }
+
+            & .variant-title {
+                margin-top: 2rem;
+                font-size: 2rem;
+            }
+
+            & .variant {
+                list-style: none;
+                display: flex;
+                margin-top: 3rem;
+                
+
+                & li {
+                    margin-right: 2rem;
+                    padding: 15px 30px;
+                    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.14);
+
+                    & a {
+                        font-size: 1.6rem;
+                        color: $color-dark;
+                    }
+                }
+                
+             
+        
+            }
+
+            & .variant-btn {
+                padding: 1rem 3rem;
+                font-size: 1.6rem;
+                background: $color-primary;
+                color: $color-white;
+                margin-top: 3rem;
+                border-radius: 20px;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.16);
+
+                &:hover {
+                    background: $color-secondary;
+                    color: $color-white;
+                }
+            }
+        }
+
+        &--form {
+
+            & input, 
+            & label,
+            & button {
+                font-size: 1.6rem;
+            }
+
+            & .question__wrapper h6 {
+                color: $color-secondary;
+            }
+
+            & .option {
+                background: #fafafa;
+                margin-right: 5rem;
+                margin-bottom: 2rem;
+                padding: 1rem 2rem;
+                border: 1px solid rgba(0, 0, 0, 0.14);
+                border-radius: 6px;
+                display: inline-block;
+            }
+
+            * .note {
+                font-size: 1.4rem;
+                color: red;
+            }
+
+        }
+    }
+}
