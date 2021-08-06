@@ -12,7 +12,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="img/slide1.jpg" class="d-block w-100" alt="...">
-      <div class="text-right carousel-caption d-none d-md-block top-25">
+      <div class="text-right carousel-caption top-25">
         <h5>Sell Your <br><span>Mobile Phone Online</span></h5>
         <!-- <p>Some representative placeholder content for the first slide.</p> -->
         <a href="#">Sell Now</a>
@@ -20,7 +20,7 @@
     </div>
     <div class="carousel-item">
       <img src="img/slide2.jpg" class="d-block w-100" alt="...">
-      <div class="text-right carousel-caption d-none d-md-block top-25">
+      <div class="text-right carousel-caption top-25">
         <h5>Sell Your <br><span>Mobile Phone Online</span></h5>
         <!-- <p>Some representative placeholder content for the first slide.</p> -->
         <a href="#">Sell Now</a>
@@ -28,7 +28,7 @@
     </div>
     <div class="carousel-item">
       <img src="img/slide3.jpg" class="d-block w-100" alt="...">
-      <div class="text-right carousel-caption d-none d-md-block top-25">
+      <div class="text-right carousel-caption top-25">
         <h5>Sell Your <br><span>Mobile Phone Online</span></h5>
         <!-- <p>Some representative placeholder content for the first slide.</p> -->
         <a href="#">Sell Now</a>
@@ -56,7 +56,7 @@
         </div>
 
         <div class="row">
-            <div class="mb-4 col-lg-3 col-xs-6 col-6">
+            <div class="mx-auto mb-4 col-lg-4 col-xs-6 col-6">
                 <a href="#">
                     <div class="border-0 card category__card">
                         <img src="img/sell mobile.webp" alt="" class="category__card--img">
@@ -67,7 +67,7 @@
                 </a>
             </div>
 
-            <div class="mb-4 col-lg-3 col-xs-6 col-6">
+            <div class="mx-auto mb-4 col-lg-4 col-xs-6 col-6">
                 <a href="#">
                     <div class="border-0 card category__card">
                         <img src="img/sell tablet.webp" alt="" class="category__card--img">
@@ -78,7 +78,7 @@
                 </a>
             </div>
 
-            <div class="mb-4 col-lg-3 col-xs-6 col-6">
+            <div class="mx-auto mb-4 col-lg-4 col-xs-6 col-6">
                 <a href="#">
                     <div class="border-0 card category__card">
                         <img src="img/sell laptop.webp" alt="" class="category__card--img">
@@ -89,7 +89,7 @@
                 </a>
             </div>
 
-            <div class="mb-4 col-lg-3 col-xs-6 col-6">
+            <div class="mx-auto mb-4 col-lg-4 col-xs-6 col-6">
                 <a href="#">
                     <div class="border-0 card category__card">
                         <img src="img/sell mobile.webp" alt="" class="category__card--img">
@@ -99,6 +99,29 @@
                     </div>
                 </a>
             </div>
+
+            <div class="mx-auto mb-4 col-lg-4 col-xs-6 col-6">
+                <a href="#">
+                    <div class="border-0 card category__card">
+                        <img src="img/sell tablet.webp" alt="" class="category__card--img">
+                        <div class="card-body">
+                            <h3 class="category__card--title">Smart Watch</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="mx-auto mb-4 col-lg-4 col-xs-6 col-6">
+                <a href="#">
+                    <div class="border-0 card category__card">
+                        <img src="img/sell laptop.webp" alt="" class="category__card--img">
+                        <div class="card-body">
+                            <h3 class="category__card--title">DSLR Camera</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
         </div>
     </div>
 </section>

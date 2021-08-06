@@ -9,7 +9,18 @@
              <div class="row">
                  <div class="col-xs-12 col-sm-4">
                     <img class="device-image img-responsive center-block" src="img/device1.png" alt="Apple iPhone XS Max">
-                 </div>
+                    
+                    <hr>
+                    <div class="gadget-detail__info">
+                        <h3>Device Evaluation</h3>
+                        
+                        <div class="mt-2 gadget-detail__info--list">
+                            <h3>Does Your Device Switch on Successfully?</h3>
+                            <ul></ul>
+                        </div> 
+                        
+                    </div>
+                </div>
 
                  <div class="col-xs-12 col-sm-8">
                      <div class="row">
@@ -111,7 +122,7 @@
                                              </div>
                                              <div class="mt-2 note"><input type="checkbox" class="mr-3">Check if back glass is broken*</div> 
                                         </div>
-
+            
                                         <button class="px-5 py-2 mt-5 btn btn-primary" type="submit" data-toggle="modal" data-target="#staticBackdrop">Next</button>
                                         <!-- Modal -->
                                         <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -129,7 +140,7 @@
                                                 <input type="text" class="form-control" placeholder="+9881901910">
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-success">Submit</button>
+                                                <a href="/redesign-cashkar/listmobile.php">See All Brands</a>
                                             </div>
                                             </div>
                                         </div>

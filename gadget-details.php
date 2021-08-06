@@ -9,7 +9,7 @@
              <div class="row">
                  <div class="col-xs-12 col-sm-4">
                     <img class="device-image img-responsive center-block" src="img/device1.png" alt="Apple iPhone XS Max">
-                 </div>
+                </div>
 
                  <div class="col-xs-12 col-sm-8">
                      <div class="row">
@@ -37,8 +37,11 @@
                                     </a>
                                 </li>
                             </ul>
+                            
 
-                            <a class="variant-btn btn" href="/gadget-condition.php">Get Exact Value</a>
+                            <h1 class="get-up-to__title">Get Up To</h1>
+                            <span class="get-up-to__price">$999.99</span>
+                            <a class="variant-btn btn" href="/redesign-cashkar/gadget-condition.php">Get Exact Value</a>
                         </div>
                      </div>
                  </div>

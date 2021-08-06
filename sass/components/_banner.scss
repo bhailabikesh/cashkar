@@ -44,19 +44,7 @@
             }
 
             & input {
-                height: 26px;
                 width: 100%;
-                border-radius: 8px;
-                border-color: transparent;
-                background-color: #ffffff;
-                color: rgb(136, 136, 136);
-                box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.28);
-                font-size: 1.6rem;
-                padding: 2rem;
-
-                &:focus {
-                    outline: none;
-                }
             }
         }
 
@@ -171,5 +159,84 @@
 
     & .owl-carousel i.fas.fa-angle-right {
         right: 0;
+    }
+}
+
+.breadcrumb {
+
+    &-item {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+        
+        & a {
+            color: $color-secondary;
+        }
+    }
+}
+
+
+
+.form-input {
+    height: 26px;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #ffffff;
+    color: rgb(136, 136, 136);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.28);
+    font-size: 1.6rem;
+    padding: 2rem;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.list {
+
+
+    &__search {
+        width: 70% !important;
+
+        @include respond(phone) {
+            width: 100% !important;
+        }
+    }
+}
+
+.select-model {
+
+    margin: 5rem 0;
+
+    &__title {
+        color: $color-secondary;
+        margin-bottom: 1rem;
+    }
+
+    &__list {
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.28);
+        padding: 1rem 0;
+        text-align: center;
+        
+        & a {
+            
+            font-size: 1.6rem;
+            color: $color-dark;
+        }
+    }
+}
+
+.get-up-to {
+   
+    &__title {
+        color: $color-dark;
+         margin-top: 2rem;
+    }
+
+    &__price {
+        display: block;
+        font-size: 4rem;
+        font-weight: 700;
+        color: $color-secondary;
+        font-family: $font-display;
     }
 }

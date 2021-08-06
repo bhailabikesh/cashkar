@@ -20,6 +20,10 @@ section {
 // Slider
 .top-25 {
     top: 25%;
+
+    @include respond(phone) {
+        top: 20%;
+    }
 }
 
 .carousel-caption {
@@ -29,6 +33,11 @@ section {
         font-weight: 800;
         color: $color-white;
         margin-bottom: 4rem;
+
+        @include respond(phone) {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
 
         & span {
             color: $color-primary;
@@ -53,6 +62,21 @@ section {
             box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
             opacity: 0.9;
         }
+
+        @include respond(phone) {
+            padding: 5px 20px;
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+
+    @include respond(phone) {
+        height: 40vh;
     }
 }
 
@@ -272,6 +296,10 @@ section {
         justify-content: center;
         position: relative;
         font-size: 1.5rem;
+
+        @include respond(phone) {
+            flex: 0 0 80%;
+        }
     }
 
     &__input {

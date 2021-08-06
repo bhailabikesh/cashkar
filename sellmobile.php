@@ -18,7 +18,7 @@
                     <h2 class="mb-5 banner__jumbotron--title">Sell Old Mobile Phone</h2>
                     <form action="#" class="banner__jumbotron--search">
                         <span class="fa fa-search"></span>
-                        <input type="text" placeholder="Search for your device">
+                        <input type="text" placeholder="Search for your device" class="form-input">
                     </form>
 
                     <h4 class="banner__jumbotron--choose">
@@ -44,7 +44,7 @@
                     </div>
                     <div style="clear: both"></div>
                     <div  class="banner__jumbotron--btn-more">
-                        <a href="/listmobile.php">See All Brands</a>
+                        <a href="/redesign-cashkar/listmobile.php">See All Brands</a>
                     </div>
                 </div>
 

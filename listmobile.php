@@ -7,11 +7,21 @@
     <div class="container">
         <div class="list-brand__wrapper">
             <h2 class="list-brand__wrapper--subtitle">Sell Your Mobile</h2>
-            <h1 class="list-brand__wrapper--title">Choose Your Brand</h1>
-
+            <div class="mb-5 row">
+                <div class="mx-auto col-md-6 col-sm-10">
+                    <h1 class="list-brand__wrapper--title">Choose Your Brand</h1>
+                </div>
+                <div class="mx-auto text-right col-md-6 col-sm-10">
+                    <form action="#" class="banner__jumbotron--search">
+                        <span class="fa fa-search"></span>
+                        <input type="text" placeholder="Search brand" class="form-input list__search">
+                    </form>
+                </div>
+            </div>
+            
             <div class="row">
                 <div class="mb-4 col-lg-2 col-md-4 col-6">
-                    <a href="/list-brand-gadget.php">
+                    <a href="/redesign-cashkar/list-brand-gadget.php">
                         <div class="card list-brand__card">
                             <img src="img/brand (1).jpg" alt="">
                             <h5 class="list-brand__card--title">One Plus</h5>
