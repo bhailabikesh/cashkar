@@ -41,7 +41,7 @@
 
                             <h1 class="get-up-to__title">Get Up To</h1>
                             <span class="get-up-to__price">$999.99</span>
-                            <a class="variant-btn btn" href="/redesign-cashkar/gadget-condition.php">Get Exact Value</a>
+                            <a class="variant-btn btn" href="/gadget-condition.php">Get Exact Value</a>
                         </div>
                      </div>
                  </div>

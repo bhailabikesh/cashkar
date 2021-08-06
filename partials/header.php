@@ -61,7 +61,7 @@
         <div class="header__middle">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a href="/redesign-cashkar/index.php" class="navbar-brand">
+                    <a href="/index.php" class="navbar-brand">
                         <img src="img/logo.png" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,7 +78,7 @@
                                     Sell 
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="/redesign-cashkar/sellmobile.php">Phone</a>
+                                    <a class="dropdown-item" href="/sellmobile.php">Phone</a>
                                     <a class="dropdown-item" href="/selltablet.php">Ipad/Tablet</a>
                                     <a class="dropdown-item" href="/selllaptop.php">Laptop</a>
                                     <a class="dropdown-item" href="/selldesktop.php">Desktop</a>
