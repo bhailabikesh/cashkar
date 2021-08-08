@@ -63,7 +63,7 @@
 <section class="top-sell">
     <div class="container">
         <div class="section-title">
-            <h1 class="section-title__heading">Top Selling Models</h1>
+            <h1 class="text-white section-title__heading">Top Selling Models</h1>
         </div>
 
         <div class="top-sell__carousel">
@@ -71,7 +71,7 @@
                 <div class="item">
                     <div class="border-0 card top-sell__card" data-mh="top-sell">
                         <img src="img/device1.png" alt="" class="top-sell__carousel--img">
-                        <h5 class="top-sell__carousel--title">Remdmi Note 9 Pro</h5>
+                        <h5 class="top-sell__carousel--title">Redmi Note 9 Pro</h5>
                     </div>
                 </div>
                 <div class="item">

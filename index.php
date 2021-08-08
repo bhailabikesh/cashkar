@@ -59,7 +59,7 @@
             <div class="mx-auto mb-4 col-lg-4 col-xs-6 col-6">
                 <a href="#">
                     <div class="border-0 card category__card">
-                        <img src="img/sell mobile.webp" alt="" class="category__card--img">
+                        <img src="img/SellMobile.webp" alt="" class="category__card--img">
                         <div class="card-body">
                             <h3 class="category__card--title">Mobile Phone</h3>
                         </div>
@@ -70,7 +70,7 @@
             <div class="mx-auto mb-4 col-lg-4 col-xs-6 col-6">
                 <a href="#">
                     <div class="border-0 card category__card">
-                        <img src="img/sell tablet.webp" alt="" class="category__card--img">
+                        <img src="img/SellTablet.webp" alt="" class="category__card--img">
                         <div class="card-body">
                             <h3 class="category__card--title">iPad/Tablet</h3>
                         </div>
@@ -81,7 +81,7 @@
             <div class="mx-auto mb-4 col-lg-4 col-xs-6 col-6">
                 <a href="#">
                     <div class="border-0 card category__card">
-                        <img src="img/sell laptop.webp" alt="" class="category__card--img">
+                        <img src="img/SellLaptop.webp" alt="" class="category__card--img">
                         <div class="card-body">
                             <h3 class="category__card--title">Laptop</h3>
                         </div>
@@ -92,7 +92,7 @@
             <div class="mx-auto mb-4 col-lg-4 col-xs-6 col-6">
                 <a href="#">
                     <div class="border-0 card category__card">
-                        <img src="img/sell mobile.webp" alt="" class="category__card--img">
+                        <img src="img/SellMobile.webp" alt="" class="category__card--img">
                         <div class="card-body">
                             <h3 class="category__card--title">Desktop</h3>
                         </div>
@@ -103,7 +103,7 @@
             <div class="mx-auto mb-4 col-lg-4 col-xs-6 col-6">
                 <a href="#">
                     <div class="border-0 card category__card">
-                        <img src="img/sell tablet.webp" alt="" class="category__card--img">
+                        <img src="img/SellTablet.webp" alt="" class="category__card--img">
                         <div class="card-body">
                             <h3 class="category__card--title">Smart Watch</h3>
                         </div>
@@ -114,7 +114,7 @@
             <div class="mx-auto mb-4 col-lg-4 col-xs-6 col-6">
                 <a href="#">
                     <div class="border-0 card category__card">
-                        <img src="img/sell laptop.webp" alt="" class="category__card--img">
+                        <img src="img/SellLaptop.webp" alt="" class="category__card--img">
                         <div class="card-body">
                             <h3 class="category__card--title">DSLR Camera</h3>
                         </div>

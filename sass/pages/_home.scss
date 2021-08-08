@@ -8,7 +8,7 @@ section {
 
     &__heading {
         font-size: 3.4rem;
-        font-weight: 400;
+        font-weight: 600;
     }
 
     &__description {
@@ -40,7 +40,7 @@ section {
         }
 
         & span {
-            color: $color-primary;
+            color: $color-secondary;
         }
 
        
@@ -48,17 +48,17 @@ section {
 
     & a {
         font-size: 1.8rem;
-        background: $color-secondary;
+        background: $color-primary;
         color: $color-white;
         padding: 10px 40px;
         border-radius: 20px;
-        border: 2px solid $color-secondary;
+        border: 2px solid $color-primary;
         box-shadow: 0 1px 10px rgba(0, 0, 0, 0.08);
         transition: all .5s;
         
         &:hover {
             color: $color-white;
-            border: 2px solid $color-secondary;
+            border: 2px solid $color-primary;
             box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
             opacity: 0.9;
         }
@@ -96,6 +96,11 @@ section {
         &--title {
             text-align: center;
             color: $color-dark;
+        }
+
+        &--img {
+            width: 75%;
+            margin: 0 auto;
         }
     }
 }
@@ -136,7 +141,7 @@ section {
             & i {
                 font-size: 4rem;
                 margin: 0 auto;
-                color: $color-secondary;
+                color: $color-primary;
             }
         }
 
@@ -257,7 +262,7 @@ section {
 
     & .owl-carousel i.fas.fa-angle-left,
     & .owl-carousel i.fas.fa-angle-right {
-        background-color: rgba($color-secondary, 0.8);
+        background-color: rgba($color-primary, 0.8);
         font-size: 2.5rem;
         padding: 0.8rem 1rem;
         color: #fff;

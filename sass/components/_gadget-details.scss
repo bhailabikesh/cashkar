@@ -17,9 +17,9 @@
             }
 
             & .device-name {
-                color: $color-secondary;
+                color: $color-primary;
                 font-size: 3rem;
-                font-weight: 500;
+                font-weight: 700;
             }
 
             & .variant-title {
@@ -58,7 +58,7 @@
                 box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.16);
 
                 &:hover {
-                    background: $color-secondary;
+                    background: $color-tertiary;
                     color: $color-white;
                 }
             }
@@ -73,7 +73,8 @@
             }
 
             & .question__wrapper h6 {
-                color: $color-secondary;
+                color: $color-dark;
+                font-weight: 700;
             }
 
             & .option {

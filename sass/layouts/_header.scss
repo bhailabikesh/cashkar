@@ -41,7 +41,7 @@
                     border-radius: 0 10rem 10rem 0;
                     color: $color-white;
                     font-weight: 500;
-                    font-family: 'Orbitron',sans-serif;
+                    font-family: $font-display;
                     padding: .1rem 2.4rem;
                     transition: all .5s;
                 }
@@ -90,7 +90,7 @@
         }
 
         & button {
-            background: $color-secondary;
+            background: $color-primary;
             color: $color-white;
 
             &:hover {
@@ -159,7 +159,7 @@
     border-radius: 0px !important;
     border: none;
     padding: 0 !important;
-    border-top: 2px solid $color-secondary !important;
+    border-top: 2px solid $color-tertiary !important;
 }
 
 .dropdown-menu a:not(:last-child) {
