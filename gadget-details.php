@@ -5,7 +5,21 @@
 <!-- Main content -->
 <div class="gadget-detail">
     <div class="container">
-        <div class="gadget-detail__wrapper">
+        <div class="row">
+            <div class="mx-auto mb-4 col-lg-5 col-sm-10">
+                <div class="card gadget-detail__card">
+                    <div class="card-body">
+                        <h2 class="gadget-detail__card--title">
+                            Sell Used Apple iPhone SE2020
+                        </h2>
+
+                        <img src="img/device1.jpeg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="gadget-detail__wrapper">
              <div class="row">
                  <div class="col-xs-12 col-sm-4">
                     <img class="device-image img-responsive center-block" src="img/device1.png" alt="Apple iPhone XS Max">
@@ -41,12 +55,12 @@
 
                             <h1 class="get-up-to__title">Get Up To</h1>
                             <span class="get-up-to__price">$999.99</span>
-                            <a class="variant-btn btn" href="/gadget-condition.php">Get Exact Value</a>
+                            <a class="variant-btn btn" href="/redesign-cashkar/gadget-condition.php">Get Exact Value</a>
                         </div>
                      </div>
                  </div>
              </div>   
-        </div>
+        </div> -->
     </div>
 </div>
 <!-- End of Main content -->

@@ -9,6 +9,24 @@ section {
     &__heading {
         font-size: 3.4rem;
         font-weight: 600;
+        position: relative;
+        padding-bottom: 20px;
+        display: inline-block;
+
+        &:before {
+            content: "";
+            position: absolute;
+            margin: 0 auto;
+            // left: 0;
+            bottom: 0;
+            width: 80px;
+            height: 4px;
+            background: $color-secondary;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
     }
 
     &__description {

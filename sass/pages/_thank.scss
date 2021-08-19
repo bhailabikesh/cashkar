@@ -1,0 +1,22 @@
+.thank {
+
+    &__content {
+        text-align: center;
+        margin: 0 auto;
+        & i {
+            font-size: 8rem;
+            color: $color-primary;
+            
+        }
+
+        & h1 {
+            font-size: 4rem;
+        }
+
+        & p {
+            font-size: 2rem;
+        }
+    }
+    
+    
+}

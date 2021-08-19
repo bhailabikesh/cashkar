@@ -69,7 +69,7 @@
 
             <div class="row">
                 <div class="mb-4 col-lg-2 col-md-4 col-6">
-                    <a href="/gadget-details.php">
+                    <a href="/redesign-cashkar/gadget-details.php">
                         <div class="card list-brand__card">
                             <img src="img/device1.png" alt="">
                             <h5 class="list-brand__card--title">One Plus</h5>
