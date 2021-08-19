@@ -244,12 +244,54 @@ a:hover {
     text-align: center; }
     .gadget-detail__card--title {
       color: #415093;
-      font-size: 2.6rem;
-      margin-bottom: 2rem; }
+      font-size: 2.4rem;
+      margin: 2rem 0; }
     .gadget-detail__card img {
-      width: 100%;
-      max-width: 312px !important;
-      max-height: 331px !important; }
+      object-fit: cover;
+      padding-bottom: 2rem; }
+  .gadget-detail__form {
+    padding: 2rem; }
+    .gadget-detail__form label {
+      font-size: 1.4rem;
+      color: #7b7c7c; }
+    .gadget-detail__form .button-label {
+      width: 200px;
+      border: 1px solid rgba(112, 112, 112, 0.12);
+      margin-right: 20px;
+      background-color: #fafafa;
+      border-radius: 6px;
+      height: 40px;
+      cursor: pointer;
+      padding: 7px;
+      text-align: left; }
+    .gadget-detail__form .mr-16 {
+      margin-right: 16px !important; }
+    .gadget-detail__form input[type=checkbox], .gadget-detail__form input[type=radio] {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 0; }
+    .gadget-detail__form .btn-submit {
+      margin-top: 15px;
+      color: #fff;
+      background-color: #b2d235;
+      padding: 8px 16px;
+      box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+      font-weight: 500;
+      font-size: 14px;
+      text-transform: uppercase; }
+      .gadget-detail__form .btn-submit:hover {
+        color: #fff;
+        box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12); }
+    .gadget-detail__form--title {
+      color: #7b7c7c;
+      font-weight: 500;
+      font-size: 2.4rem;
+      margin-bottom: 2rem;
+      text-align: left; }
+    .gadget-detail__form .form-row {
+      text-align: left; }
+    .gadget-detail__form .dispb {
+      display: block !important; }
   .gadget-detail__wrapper {
     background: #fff;
     padding: 7rem 2rem;
@@ -305,6 +347,86 @@ a:hover {
     .gadget-detail__wrapper--form * .note {
       font-size: 1.4rem;
       color: red; }
+
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 520px;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0); }
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+  height: 100%;
+  overflow-y: auto; }
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+  padding: 15px 15px 80px; }
+
+/*Left*/
+.modal.left.fade .modal-dialog {
+  -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+  transition: opacity 0.3s linear, left 0.3s ease-out; }
+
+.modal.left.fade.in .modal-dialog {
+  left: 0; }
+
+/*Right*/
+.modal.right.fade .modal-dialog {
+  right: 0;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+  transition: opacity 0.3s linear, right 0.3s ease-out; }
+
+.modal.right.fade.in .modal-dialog {
+  right: 0; }
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+  border-radius: 0;
+  border: none; }
+
+.modal-header {
+  border-bottom-color: #EEEEEE;
+  background-color: #FAFAFA; }
+
+.modal-span {
+  font-size: 1.4rem;
+  color: #7b7c7c; }
+
+.modal-form input,
+.modal-form span {
+  height: 26px;
+  border-radius: 8px;
+  border-color: transparent;
+  background-color: #ffffff;
+  color: #888888;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.28);
+  font-size: 1.6rem;
+  padding: 2rem;
+  margin-top: 1rem; }
+
+.btn-continue {
+  margin-top: 3rem;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  width: 100%;
+  font-size: 1.6rem !important;
+  color: #fff !important;
+  background: #415093 !important; }
 
 .header__top {
   background: #f3f3f3; }

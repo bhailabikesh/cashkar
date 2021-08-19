@@ -20,9 +20,9 @@
                             <h3 class="variant-title">Best Value We Offer</h3>
                             
 
-                            <h1 class="get-up-to__title">Get Up To</h1>
+                            <h1 class="get-up-to__title">Value according to your information</h1>
                             <span class="get-up-to__price">$999.99</span>
-                            <a class="variant-btn btn" href="/redesign-cashkar/gadget-condition.php">Get Exact Value</a>
+                            <!-- <a class="variant-btn btn" href="/gadget-condition.php">Get Exact Value</a> -->
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="mx-auto col-lg-12">
-                                        <a href="#" class="btn btn-continue">Continue</a>
+                                        <a href="/thank.php" class="btn btn-continue">Continue</a>
                                     </div>
                                 </div>
                             </div>

@@ -6,7 +6,7 @@
 <div class="gadget-detail">
     <div class="container">
         <div class="row">
-            <div class="mx-auto mb-4 col-lg-5 col-sm-10">
+            <div class="mx-auto mb-4 col-lg-4 col-sm-10">
                 <div class="card gadget-detail__card">
                     <div class="card-body">
                         <h2 class="gadget-detail__card--title">
@@ -17,6 +17,39 @@
                     </div>
                 </div>
             </div>
+
+            <div class="mx-auto mb-4 col-lg-8 col-sm-10">
+                <div class="card gadget-detail__card">
+                    <div class="card-body">
+                        <form action="#" class="gadget-detail__form">
+                            <div class="form-row">
+                                <label for="3" id="my-radio-group">Does Your Device Switch on Successfully?</label>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="button-label padl-9">
+                                        <input name="3" type="radio" class="mr-16" value="5">
+                                        Yes
+                                    </label>
+                                    <label class="button-label padl-9">
+                                        <input name="3" type="radio" class="mr-16" value="6"
+                                        >No
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-row"><label for="6" id="my-radio-group">Choose Variant</label></div>
+                            <div class="form-row"><div class="form-group"><label class="button-label padl-9"><input name="6" type="radio" class="mr-16" value="77">64GB</label><label class="button-label padl-9"><input name="6" type="radio" class="mr-16" value="78">128GB</label><label class="button-label padl-9"><input name="6" type="radio" class="mr-16" value="79">256GB</label></div></div>
+                            <div class="form-row"><label for="7" id="my-radio-group">Are you able to make and receive calls?</label></div>
+                            <div class="form-row"><div class="form-group"><label class="button-label padl-9"><input name="7" type="radio" class="mr-16" value="17">Yes</label><label class="button-label padl-9"><input name="7" type="radio" class="mr-16" value="18">No</label></div></div>
+                            
+                            <div class="text-left">
+                                <a class="btn btn-submit" href="/gadget-condition.php">Next</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <!-- <div class="gadget-detail__wrapper">
