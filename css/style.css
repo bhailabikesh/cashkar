@@ -363,6 +363,10 @@ a:hover {
   -ms-transform: translate3d(0%, 0, 0);
   -o-transform: translate3d(0%, 0, 0);
   transform: translate3d(0%, 0, 0); }
+  @media (max-width: 37.5em) {
+    .modal.left .modal-dialog,
+    .modal.right .modal-dialog {
+      width: 100%; } }
 
 .modal.left .modal-content,
 .modal.right .modal-content {
