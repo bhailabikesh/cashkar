@@ -10,7 +10,15 @@
                 <i class="far fa-check-circle"></i>
                 
                 <h1>Thank You!</h1>
-                <p>Your order has been confirmed</p>
+                <p class="text-success font-weight-bold">Your order has been confirmed</p>
+                
+                <span class="h2">
+                    We Have Received Your Request And One Of Our Partner Will Be There At Your Service.
+                </span>
+                
+                <a href="index.php" class="btn btn-continue w-25">Sell More</a>
+
+                <a href="orderdetails.php" class="btn btn-continue w-25">See Order Details</a>
             </div>
         </div>
     </div>

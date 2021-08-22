@@ -878,13 +878,25 @@ section {
   .checkout__heading--description {
     font-size: 1.4rem;
     color: #363639; }
-  .checkout__card {
-    border-radius: 25px;
-    border: 2px solid #b2d235 !important;
-    -webkit-border-radius: 2px solid #b2d235 !important;
-    -moz-border-radius: 2px solid #b2d235 !important;
-    -ms-border-radius: 2px solid #b2d235 !important;
-    -o-border-radius: 2px solid #b2d235 !important; }
+  .checkout__card label h6,
+  .checkout__card input,
+  .checkout__card button {
+    font-size: 1.6rem; }
+  .checkout__card .rounded {
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem; }
+  .checkout__card .nav-pills .nav-link {
+    color: #555;
+    font-size: 1.4rem; }
+  .checkout__card .nav-pills .nav-link.active {
+    color: white; }
+  .checkout__card input[type="radio"] {
+    margin-right: 5px; }
+  .checkout__card .bold {
+    font-weight: bold; }
   .checkout__form label {
     font-size: 1.2rem; }
     .checkout__form label span {
@@ -919,6 +931,35 @@ section {
     background-color: #000;
     width: 100%; }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield; }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #415093 !important; }
+
+.summary__price {
+  border-bottom: 2px solid #eee;
+  position: relative;
+  padding-bottom: 1rem;
+  margin-top: 3rem; }
+  .summary__price--title {
+    font-size: 1.6rem;
+    color: #363639;
+    display: inline-block;
+    text-align: left; }
+  .summary__price--amount {
+    position: absolute;
+    right: 0;
+    font-size: 1.4rem; }
+
 .thank__content {
   text-align: center;
   margin: 0 auto; }
@@ -929,3 +970,10 @@ section {
     font-size: 4rem; }
   .thank__content p {
     font-size: 2rem; }
+
+.order-details table {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  text-align: center; }
+  .order-details table td {
+    padding: 2rem 0; }

@@ -44,7 +44,7 @@
                     </div>
                     <div style="clear: both"></div>
                     <div  class="banner__jumbotron--btn-more">
-                        <a href="/listmobile.php">See All Brands</a>
+                        <a href="listmobile.php">See All Brands</a>
                     </div>
                 </div>
 

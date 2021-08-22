@@ -43,7 +43,7 @@
                             <div class="form-row"><div class="form-group"><label class="button-label padl-9"><input name="7" type="radio" class="mr-16" value="17">Yes</label><label class="button-label padl-9"><input name="7" type="radio" class="mr-16" value="18">No</label></div></div>
                             
                             <div class="text-left">
-                                <a class="btn btn-submit" href="/gadget-condition.php">Next</a>
+                                <a class="btn btn-submit" href="gadget-condition.php">Next</a>
                             </div>
                         </form>
                     </div>

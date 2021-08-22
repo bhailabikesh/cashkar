@@ -139,7 +139,7 @@
                             <input type="text" class="form-control" placeholder="Enter your Mobile" aria-label="Username" aria-describedby="basic-addon1">
                         </div>
 
-                        <a class="btn btn-continue" href="/checkout.php">Continue</a>
+                        <a class="btn btn-continue" href="checkout.php">Continue</a>
                     </form>
 
                 </div>

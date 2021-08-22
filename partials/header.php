@@ -61,7 +61,7 @@
         <div class="header__middle">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a href="/index.php" class="navbar-brand">
+                    <a href="index.php" class="navbar-brand">
                         <img src="img/logo.png" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,17 +71,17 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="mx-auto navbar-nav">
                             <li class="nav-item active">
-                                <a href="/" class="nav-link">Home <span class="sr-only">(current)</span></a>
+                                <a href="index.php" class="nav-link">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Sell 
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="/sellmobile.php">Phone</a>
-                                    <a class="dropdown-item" href="/selltablet.php">Ipad/Tablet</a>
-                                    <a class="dropdown-item" href="/selllaptop.php">Laptop</a>
-                                    <a class="dropdown-item" href="/selldesktop.php">Desktop</a>
+                                    <a class="dropdown-item" href="sellmobile.php">Phone</a>
+                                    <a class="dropdown-item" href="selltablet.php">Ipad/Tablet</a>
+                                    <a class="dropdown-item" href="selllaptop.php">Laptop</a>
+                                    <a class="dropdown-item" href="selldesktop.php">Desktop</a>
                                 </div>
                             </li>
                             <li class="nav-item">

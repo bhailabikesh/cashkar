@@ -21,7 +21,7 @@
             
             <div class="row">
                 <div class="mb-4 col-lg-2 col-md-4 col-6">
-                    <a href="/list-brand-gadget.php">
+                    <a href="list-brand-gadget.php">
                         <div class="card list-brand__card">
                             <img src="img/brand (1).jpg" alt="">
                             <h5 class="list-brand__card--title">One Plus</h5>
