@@ -970,6 +970,14 @@ input[type=number] {
     font-size: 4rem; }
   .thank__content p {
     font-size: 2rem; }
+  @media (max-width: 37.5em) {
+    .thank__content span {
+      font-size: 1.6rem;
+      padding: 0 1rem; } }
+
+@media (max-width: 37.5em) {
+  .thank .btn-continue {
+    width: 75% !important; } }
 
 .order-details table {
   margin-top: 2rem;
