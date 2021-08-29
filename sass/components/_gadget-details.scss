@@ -13,14 +13,35 @@
             margin: 2rem 0;
         }
 
+        &--heading {
+            text-align: left;
+        }
+
         & img {
             object-fit: cover;
             padding-bottom: 2rem;
         }
+
+        &--price {
+            color: $color-tertiary;
+            font-size: 6rem;
+            font-weight: 600;
+        }
+    }
+
+    &__label {
+        font-size: 2.4rem !important;
+        color: $color-secondary !important;
+        font-weight: 600;
     }
 
     &__form {
         padding: 2rem;
+
+        &--question {
+            font-weight: 600;
+            color: $color-secondary !important;
+        }
 
         & label {
             font-size: 1.4rem;
@@ -277,4 +298,33 @@
     font-size: 1.6rem !important;
     color: $color-white !important;
     background: $color-secondary !important;
+}
+
+
+.danger-alert {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+
+.danger-alert1 {
+    display: none;
+}
+
+
+.facing-issues {
+
+    &__title {
+        font-size: 1.6rem;
+        color: $color-secondary;
+
+    }
+
+    &__btn {
+        font-size: 1.4rem !important;
+    }
+}
+
+.issueSelected {
+    background-color: $color-primary;
+    border-radius: 10px;
 }

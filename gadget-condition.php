@@ -24,82 +24,88 @@
                         <form action="#" class="gadget-detail__form">
                             <div class="row">
                                 <div class="col">
-                                    <h3 class="gadget-detail__form--title">Does your device have any defects?</h3>
+                                    <h3 class="gadget-detail__form--title">Tell us more about your device</h3>
                                 </div>
                             </div>
                             <div class="form-row">
-                                <label for="13" id="my-radio-group">Select screen condition (Broken / Cracked / Shadow / Patch / Dots / Lines / Not working partially)</label>
+                                <label for="3" id="my-radio-group" class="gadget-detail__form--question">Does Your Device Switch on Successfully?</label>
+                            </div>
+                            <div class="form-row device">
+                                <div class="form-group">
+                                    <label class="button-label padl-9">
+                                        <input name="3" type="radio" class="mr-16" value="5">
+                                        Yes
+                                    </label>
+                                    <label class="button-label padl-9">
+                                        <input name="3" type="radio" class="mr-16" value="6" id="danger-no"
+                                        >No
+                                    </label>
+                                </div>
+                                <span class="text-danger danger-alert danger-alert1">Note: If the device doesn't switched on, Sorry we will not buy it. Sell another!</span>
+                            </div>
+                            <div class="form-row">
+                                <label for="13" id="my-radio-group" class="gadget-detail__form--question">Select screen condition</label>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="padl-16 dispb">
+                                        <input name="24" type="radio" class="mr-16" value="58">
+                                        Flawless Screen (Like New screen)
+                                    </label>
+                                    <label class="padl-16 dispb">
+                                        <input name="24" type="radio" class="mr-16" value="59">
+                                        Scratches On Screen (Visible Scratches On Screen)
+                                    </label>
+                                    <label class="padl-16 dispb">
+                                        <input name="24" type="radio" class="mr-16" value="60">
+                                        Cracked Screen (Crack On Screen/ Broken Screen)
+                                    </label>
+                                    <label class="padl-16 dispb">
+                                        <input name="24" type="radio" class="mr-16" value="61">
+                                        Faulty Screen (Lines/ Spots/ Blank Display/ Non-working Touch)
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <label for="14" id="my-radio-group" class="gadget-detail__form--question">Select Device Functionality</label>
                             </div>
                             <div class="form-row">
                                 <div class="form-group">
                                     <label class="button-label padl-9">
-                                        <input name="13" type="radio" class="mr-16" value="36">Yes
-                                    </label>
-                                    <label class="button-label padl-9">
-                                        <input name="13" type="radio" class="mr-16" value="37">No
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="form-row">
-                                <label for="14" id="my-radio-group">Auto restart / Hanging / Rooted / Excessive heating</label>
-                            </div>
-                            <div class="form-row">
-                                <div class="form-group">
-                                    <label class="button-label padl-9">
-                                        <input name="14" type="radio" class="mr-16" value="38">Yes</label>
+                                        <input name="14" type="radio" class="mr-16" value="38">Fully Functional</label>
                                         <label class="button-label padl-9">
-                                            <input name="14" type="radio" class="mr-16" value="39">No</label>
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                        <label for="15" id="my-radio-group">Front camera (Not working / Blur / Scratches / Flash not working)</label>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="form-group">
-                                            <label class="button-label padl-9">
-                                                <input name="15" type="radio" class="mr-16" value="40">Yes
-                                            </label>
-                                            <label class="button-label padl-9">
-                                                <input name="15" type="radio" class="mr-16" value="41">No
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                        <label for="16" id="my-radio-group">Back camera (Not working / Blur / Scratches / Flash not working)</label>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="form-group">
-                                            <label class="button-label padl-9">
-                                                <input name="16" type="radio" class="mr-16" value="42">Yes
-                                            </label>
-                                            <label class="button-label padl-9">
-                                                <input name="16" type="radio" class="mr-16" value="43">No
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                        <label for="17" id="my-radio-group">Battery (No backup / Not charging / Bulged / Backup less than 30 minutes)</label>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="form-group">
-                                            <label class="button-label padl-9">
-                                                <input name="17" type="radio" class="mr-16" value="44">Yes
-                                            </label>
-                                            <label class="button-label padl-9">
-                                                <input name="17" type="radio" class="mr-16" value="45">No
-                                            </label>
+                                            <input name="14" type="radio" class="mr-16" value="39" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Facing Issues</label>
                                         </div>
                                     </div>
 
                                     <!-- Next -->
-                                    <div class="form-row"><label for="9" id="my-radio-group">Original Accessories</label></div>
+                                    <div class="form-row"><label for="9" id="my-radio-group" class="gadget-detail__form--question">Original Accessories</label></div>
                                     <div class="form-row"><div class="form-group"><label class="padl-16 dispb"><input name="9" type="checkbox" class="mr-16" value="24">Charger + Data cable</label><label class="padl-16 dispb"><input name="9" type="checkbox" class="mr-16" value="25">Earphones</label><label class="padl-16 dispb"><input name="9" type="checkbox" class="mr-16" value="26">Box</label><label class="padl-16 dispb"><input name="9" type="checkbox" class="mr-16" value="27">Valid invoice</label></div></div>
-                                    <div class="form-row"><label for="10" id="my-radio-group">Device Age and Warranty (Extended warranty not valid)</label></div>
-                                    <div class="form-row"><div class="form-group"><label class="padl-16 dispb"><input name="10" type="radio" class="mr-16" value="28">Less than 3 months old. At least 9 months valid warranty.</label><label class="padl-16 dispb"><input name="10" type="radio" class="mr-16" value="29">Between 3 to 6 months old. At least 6 months valid warranty.</label><label class="padl-16 dispb"><input name="10" type="radio" class="mr-16" value="30">Between 6 to 11 months old. At least 1 months valid warranty.</label><label class="padl-16 dispb"><input name="10" type="radio" class="mr-16" value="31">More than 11 months.</label></div></div>
+                                    
+                                    <div class="form-row"><label for="10" id="my-radio-group" class="gadget-detail__form--question">Select Overall Body Condition</label></div>
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label class="padl-16 dispb">
+                                                <input name="10" type="radio" class="mr-16" value="28">
+                                                Good (Light Usage Signs/ Minor Scratches)
+                                            </label>
+                                            <label class="padl-16 dispb">
+                                                <input name="10" type="radio" class="mr-16" value="29">
+                                                Average (Minor Dents/ Major Scratches)
+                                            </label>
+                                            <label class="padl-16 dispb">
+                                                <input name="10" type="radio" class="mr-16" value="30">
+                                                Below Average (Major Dents/ Cracked Or Broken Panel)
+                                            </label>
+                                            
+                                            <span class="text-danger danger-alert"">
+                                                <input type="checkbox"> Check if back glass is broken
+                                            </span>
+                                        </div>
+                                    </div>
 
-                                    <div class="form-row"><label for="24" id="my-radio-group">Physical Condition</label></div>
-                                    <div class="form-row"><div class="form-group"><label class="padl-16 dispb"><input name="24" type="radio" class="mr-16" value="58">Flawless - Like new. No scratches or marks at all.</label><label class="padl-16 dispb"><input name="24" type="radio" class="mr-16" value="59">Good - Up to 5 to 6 minor scratches with no discoloration or dents on outer body.</label><label class="padl-16 dispb"><input name="24" type="radio" class="mr-16" value="60">Average - Major marks / dents / scratches / discoloration on outer body but with no cracks.</label><label class="padl-16 dispb"><input name="24" type="radio" class="mr-16" value="61">Below Average - With cracks on outer body / bent / compatible or loose display / screws missing</label></div></div>
-
+                                    
                                     <div class="text-left">
                                         <button type="button" class="btn btn-submit" data-toggle="modal" data-target="#myModal2">
                                             Submit
@@ -148,6 +154,67 @@
 		</div><!-- modal-dialog -->
 	</div><!-- modal -->
 	
+
+    <!-- MODAL OF FACING ISSUES -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title facing-issues__title" id="exampleModalLabel">Select Issues</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body row">
+                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                    <img src="https://cashkar.in/images/elements/Back Camera.png" id="i1" alt="" class="p-1" onclick="selectIssue(this.id)">
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                    <img src="https://cashkar.in/images/elements/Finger Print.png" id="i2" alt="" class="p-1" onclick="selectIssue(this.id)">
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                    <img src="https://cashkar.in/images/elements/Speakers-Viberators.png" id="i4" alt="" class="p-1" onclick="selectIssue(this.id)">
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                    <img src="https://cashkar.in/images/elements/Face Scanner.png" alt="" id="i5" class="p-1" onclick="selectIssue(this.id)">
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                    <img src="https://cashkar.in/images/elements/Battery.png" alt="" id="i6" class="p-1" onclick="selectIssue(this.id)">
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                    <img src="https://cashkar.in/images/elements/Wifi.png" alt="" id="i7" class="p-1" onclick="selectIssue(this.id)">
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                    <img src="https://cashkar.in/images/elements/Bent Phone.png" alt="" id="i3" class="p-1" onclick="selectIssue(this.id)">
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                    <img src="https://cashkar.in/images/elements/Network Problem.png" alt="" id="i9" class="p-1" onclick="selectIssue(this.id)">
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                    <img src="https://cashkar.in/images/elements/Microphone.png" alt="" id="i10" class="p-1" onclick="selectIssue(this.id)">
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                    <img src="https://cashkar.in/images/elements/Display Changed.png" alt="" id="i12" class="p-1" onclick="selectIssue(this.id)">
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                    <img src="https://cashkar.in/images/elements/Charging Problem.png" alt="" id="i13" class="p-1" onclick="selectIssue(this.id)">
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                    <img src="https://cashkar.in/images/elements/Bluetooth.png" alt="" id="i14" class="p-1" onclick="selectIssue(this.id)">
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                    <img src="https://cashkar.in/images/elements/Front Camera.png" alt="" id="i15" class="p-1" onclick="selectIssue(this.id)">
+                </div>
+                           </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary facing-issues__btn" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary facing-issues__btn">Submit</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF MODAL OF FACING ISSUES -->
 	
 </div><!-- container -->
         <!-- =================================== -->

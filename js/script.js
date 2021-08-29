@@ -74,3 +74,13 @@ $(document).ready(function(){
     })
   });
 
+  $(document).ready(function() {
+    $('.device input[type="radio"]').click(function() {
+        if($(this).attr('id') == 'danger-no') {
+             $('.danger-alert1').show();           
+        }
+        else {
+             $('.danger-alert1').hide();   
+        }
+    });
+ });
