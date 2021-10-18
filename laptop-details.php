@@ -10,10 +10,10 @@
                 <div class="card gadget-detail__card">
                     <div class="card-body">
                         <h2 class="gadget-detail__card--title">
-                            Sell Used Apple iPhone SE2020
+                            Sell Used Macbook Air 2020
                         </h2>
 
-                        <img src="img/device1.jpeg" alt="" class="img-fluid">
+                        <img src="img/laptop.jpeg" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -23,24 +23,53 @@
                     <div class="card-body">
                         <form action="#" class="gadget-detail__form">
                             
-                            <div class="form-row"><label for="6" id="my-radio-group" class="gadget-detail__label">Choose Variant</label></div>
-                                <div class="form-row"><div class="form-group">
-                                    <label class="button-label padl-9">
-                                        <input name="6" type="radio" class="mr-16" value="77" checked>64GB
-                                    </label>
-                                    <label class="button-label padl-9">
-                                        <input name="6" type="radio" class="mr-16" value="78">128GB
-                                    </label>
-                                    <label class="button-label padl-9">
-                                        <input name="6" type="radio" class="mr-16" value="79">256GB
-                                    </label>
+                            <div class="form-row">
+                                <label for="6" id="my-radio-group" class="gadget-detail__label">Choose Variant</label></div>
+                                
+                                <div class="form-row laptop-form">
+                                    <div class="form-group">
+                                        <label for="processor">Select Processor</label>
+                                        <select name="" id="" class="form-control laptop-select">
+                                        
+                                            <option value="">Select</option>
+                                            <option value="i3">inside</option>
+                                            <option value="i5">i3</option>
+                                            <option value="i7">i5</option>
+                                            <option value="i9">i7</option>
+                                            <option value="i9">i9</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="ram">Select RAM</label>
+                                        <select name="" id="" class="form-control laptop-select">
+                                        
+                                            <option value="">Select</option>
+                                            <option value="i3">2GB</option>
+                                            <option value="i5">4GB</option>
+                                            <option value="i7">8GB</option>
+                                            <option value="i9">12GB</option>
+                                            <option value="i9">16GB</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="storage">Select Storage</label>
+                                        <select name="" id="" class="form-control laptop-select">
+                                        
+                                            <option value="">Select</option>
+                                            <option value="i3">128GB</option>
+                                            <option value="i5">256GB</option>
+                                            <option value="i7">512GB</option>
+                                            <option value="i9">1TB</option>
+                                            <option value="i9">2TB</option>
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
                             
                             <h2 class="gadget-detail__card--heading">Get Up To:</h2>
                             <h1 class="text-left gadget-detail__card--price">₹47,500</h1>
                             <div class="text-left">
-                                <a class="btn btn-submit" href="gadget-condition.php">Get Accurate Value</a>
+                                <a class="btn btn-submit" href="laptop-condition.php">Get Accurate Value</a>
                             </div>
                         </form>
                     </div>

@@ -48,6 +48,7 @@
             color: #7b7c7c;
         }
 
+
         & .button-label {
             width: 200px;
             border: 1px solid hsla(0,0%,43.9%,.12);
@@ -327,4 +328,13 @@
 .issueSelected {
     background-color: $color-primary;
     border-radius: 10px;
+}
+
+
+.laptop-select {
+    font-size: 1.6rem !important;
+}
+
+.laptop-form .form-group {
+    margin-right: 2rem;
 }

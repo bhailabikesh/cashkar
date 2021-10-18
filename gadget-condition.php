@@ -127,18 +127,18 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 
-				<div class="modal-header bg-transparent">
+				<div class="bg-transparent modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 
-				<div class="modal-body text-center">
-					<img src="img/modal.svg" alt="" class="img-fluid w-75 p-5">
+				<div class="text-center modal-body">
+					<img src="img/modal.svg" alt="" class="p-5 img-fluid w-75">
 
                     <h2 class="text-left">You're just 1-step away from selling your device.</h2>
-                    <p class="modal-span text-left">Please enter your phone number</p>
+                    <p class="text-left modal-span">Please enter your phone number</p>
 
                     <form action="#" class="modal-form">
-                        <div class="input-group mb-3">
+                        <div class="mb-3 input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="basic-addon1">+91</span>
                             </div>
@@ -167,43 +167,43 @@
                 </button>
             </div>
             <div class="modal-body row">
-                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                <div class="mb-2 col-lg-2 col-sm-3 col-4 d-flex center">
                     <img src="https://cashkar.in/images/elements/Back Camera.png" id="i1" alt="" class="p-1" onclick="selectIssue(this.id)">
                 </div>
-                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                <div class="mb-2 col-lg-2 col-sm-3 col-4 d-flex center">
                     <img src="https://cashkar.in/images/elements/Finger Print.png" id="i2" alt="" class="p-1" onclick="selectIssue(this.id)">
                 </div>
-                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                <div class="mb-2 col-lg-2 col-sm-3 col-4 d-flex center">
                     <img src="https://cashkar.in/images/elements/Speakers-Viberators.png" id="i4" alt="" class="p-1" onclick="selectIssue(this.id)">
                 </div>
-                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                <div class="mb-2 col-lg-2 col-sm-3 col-4 d-flex center">
                     <img src="https://cashkar.in/images/elements/Face Scanner.png" alt="" id="i5" class="p-1" onclick="selectIssue(this.id)">
                 </div>
-                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                <div class="mb-2 col-lg-2 col-sm-3 col-4 d-flex center">
                     <img src="https://cashkar.in/images/elements/Battery.png" alt="" id="i6" class="p-1" onclick="selectIssue(this.id)">
                 </div>
-                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                <div class="mb-2 col-lg-2 col-sm-3 col-4 d-flex center">
                     <img src="https://cashkar.in/images/elements/Wifi.png" alt="" id="i7" class="p-1" onclick="selectIssue(this.id)">
                 </div>
-                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                <div class="mb-2 col-lg-2 col-sm-3 col-4 d-flex center">
                     <img src="https://cashkar.in/images/elements/Bent Phone.png" alt="" id="i3" class="p-1" onclick="selectIssue(this.id)">
                 </div>
-                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                <div class="mb-2 col-lg-2 col-sm-3 col-4 d-flex center">
                     <img src="https://cashkar.in/images/elements/Network Problem.png" alt="" id="i9" class="p-1" onclick="selectIssue(this.id)">
                 </div>
-                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                <div class="mb-2 col-lg-2 col-sm-3 col-4 d-flex center">
                     <img src="https://cashkar.in/images/elements/Microphone.png" alt="" id="i10" class="p-1" onclick="selectIssue(this.id)">
                 </div>
-                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                <div class="mb-2 col-lg-2 col-sm-3 col-4 d-flex center">
                     <img src="https://cashkar.in/images/elements/Display Changed.png" alt="" id="i12" class="p-1" onclick="selectIssue(this.id)">
                 </div>
-                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                <div class="mb-2 col-lg-2 col-sm-3 col-4 d-flex center">
                     <img src="https://cashkar.in/images/elements/Charging Problem.png" alt="" id="i13" class="p-1" onclick="selectIssue(this.id)">
                 </div>
-                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                <div class="mb-2 col-lg-2 col-sm-3 col-4 d-flex center">
                     <img src="https://cashkar.in/images/elements/Bluetooth.png" alt="" id="i14" class="p-1" onclick="selectIssue(this.id)">
                 </div>
-                <div class="col-lg-2 col-sm-3 col-4 d-flex center mb-2">
+                <div class="mb-2 col-lg-2 col-sm-3 col-4 d-flex center">
                     <img src="https://cashkar.in/images/elements/Front Camera.png" alt="" id="i15" class="p-1" onclick="selectIssue(this.id)">
                 </div>
                            </div>
